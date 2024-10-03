@@ -40,7 +40,6 @@
                 <i class="far fa-clock countdown-icon"></i>
                 <div id="countdown-timer" class="countdown"></div>
             </div>
-            <button class="apply-button" onclick="window.location.href='https://devfolio.co/discover'">Apply with Devfolio</button>
         </div>
     </section>
 
@@ -58,9 +57,14 @@
     </section>
 
     <!-- Devfolio Section -->
-    <section id="devpost" class="devpost-section" data-aos="fade-up">
+    <section id="devfolio" class="devfolio-section" data-aos="fade-up">
         <h2><i class="fas fa-code-branch"></i> Devfolio</h2>
-        <button class="apply-button" onclick="window.location.href='https://devfolio.co/discover'">Apply with Devfolio</button>
+        <div 
+            class="apply-button" 
+            data-hackathon-slug="error-hackfest-1" <!-- Replace 'error-404-hackathon' with your actual hackathon slug -->
+            data-button-theme="light"
+            style="height: 44px; width: 312px"
+        ></div>
     </section>
 
     <!-- About the Core Section -->
@@ -92,6 +96,10 @@
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="js/countdown.js"></script>
     <script src="js/scripts.js"></script>
+
+    <!-- Devfolio SDK Script -->
+    <script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
+
     <script>
         AOS.init();
     </script>
