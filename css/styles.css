@@ -179,23 +179,12 @@ section p {
     margin-bottom: 20px;
 }
 
-/* Apply Button with Animation */
-.apply-button {
-    padding: 15px 30px;
-    font-size: 1.2rem;
-    background-color: #00ff00;
-    border: none;
-    cursor: pointer;
-    color: #000;
-    font-weight: bold;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-    box-shadow: 0 4px 8px rgba(0, 255, 0, 0.2);
-}
-
-.apply-button:hover {
-    background-color: #4cff4c;
-    transform: scale(1.1);
-    box-shadow: 0 8px 16px rgba(0, 255, 0, 0.5);
+/* Devfolio Button Container */
+.devfolio-button-container {
+    display: block !important;
+    visibility: visible !important;
+    margin: 20px auto;  /* Centering the button */
+    z-index: 1000;      /* Ensure it stays on top of other elements */
 }
 
 /* Footer Styling */
@@ -288,11 +277,6 @@ footer a:hover {
 
     .countdown-container {
         flex-direction: column;
-    }
-
-    .apply-button {
-        padding: 10px 20px;
-        font-size: 1rem;
     }
 
     footer {
