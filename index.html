@@ -23,7 +23,7 @@
                 <li><a href="#home">Home</a></li>
                 <li><a href="#aim">Aim</a></li>
                 <li><a href="#competition">Competition Details</a></li>
-                <li><a href="#devfolio">Devfolio</a></li>
+                <li><a href="#sponsors">Sponsors</a></li>
                 <li><a href="#about">About the Core</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -36,10 +36,19 @@
             <h1>Error 404 Hackathon</h1>
             <h3>Sign up now and be part of the innovation!</h3>
             <div class="countdown-container">
-                <i class="far fa-clock countdown-icon"></i>
-                <div id="countdown-timer" class="countdown"></div>
+                <p id="countdown-text">Countdown to Registration Deadline:</p>
+                <div class="countdown-timer-container">
+                    <i class="far fa-clock countdown-icon"></i>
+                    <div id="countdown-timer" class="countdown"></div>
+                </div>
             </div>
-            <button class="apply-button" onclick="window.location.href='https://devfolio.co/'">Apply with Devfolio</button>
+            <!-- Custom Apply with Devfolio Button -->
+            <div class="apply-container">
+                <p>Apply with:</p>
+                <a href="https://error-hackfest-1.devfolio.co" target="_blank">
+                    <img src="images/devfolio-logo.png" alt="Apply with Devfolio" style="height: 60px; width: 350px;">
+                </a>
+            </div>
         </div>
     </section>
 
@@ -56,16 +65,67 @@
         <p>Participation: Open to everyone passionate about tech, health, and most importantly problem-solving!</p>
     </section>
 
-    <!-- Devfolio Section -->
-    <section id="devfolio" class="devfolio-section" data-aos="fade-up">
-        <h2><i class="fas fa-code-branch"></i> Devfolio</h2>
-        <button class="apply-button" onclick="window.location.href='https://devfolio.co/'">Apply with Devfolio</button>
+    <!-- Sponsors Section -->
+    <section id="sponsors" class="sponsors-section" data-aos="fade-up">
+        <h2><i class="fas fa-handshake"></i> Sponsors</h2>
+
+        <!-- Devfolio Sponsor -->
+        <div class="sponsor">
+            <img src="images/devfolio-logo.png" alt="DEVFOLIO LOGO" class="sponsor-logo">
+            <p>We are pleased to introduce you to our sponsor Devfolio. Devfolio is at the forefront of the hacker movement, helping organizers host awesome community hackathons and enabling a thriving developer ecosystem around excellent products.</p>
+            <p>Check them out 👉 <a href="http://devfolio.co" target="_blank">http://devfolio.co</a></p>
+            <p>Check out their socials:</p>
+            <ul>
+                <li><a href="https://twitter.com/devfolio" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                <li><a href="https://www.facebook.com/devfolio" target="_blank"><i class="fab fa-facebook"></i> Facebook</a></li>
+                <li><a href="https://www.linkedin.com/company/devfolio" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                <li><a href="https://www.instagram.com/devfolioco" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+            </ul>
+        </div>
+
+        <!-- Polygon Sponsor -->
+        <div class="sponsor">
+            <img src="images/polygon.webp" alt="POLYGON LOGO" class="sponsor-logo">
+            <p>It's our pleasure to introduce you to our sponsor Polygon. Polygon provides scalable & instant Ethereum transactions using sidechains, simplifying interactions between users and the decentralized world.</p>
+            <p>Check them out on: <a href="https://polygon.technology/" target="_blank">https://polygon.technology/</a></p>
+            <p>Check out their socials:</p>
+            <ul>
+                <li><a href="https://twitter.com/0xPolygon" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                <li><a href="https://www.instagram.com/0xpolygon/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+            </ul>
+        </div>
+
+        <!-- ETHIndia Sponsor -->
+        <div class="sponsor">
+            <img src="images/ETHIndia.webp" alt="ETHINDIA LOGO" class="sponsor-logo">
+            <p>It's our pleasure to introduce you to our sponsor ETHIndia. ETHIndia is empowering the Ethereum Community through its various initiatives, including hackathons, fellowships, grants, and more!</p>
+            <p>Check them out on: <a href="https://ethindia.co/" target="_blank">https://ethindia.co/</a></p>
+            <p>Check out their socials:</p>
+            <ul>
+                <li><a href="https://twitter.com/ethindiaco" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                <li><a href="https://www.instagram.com/ethindiaco" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+            </ul>
+        </div>
+
+        <!-- Flatlogic Sponsor -->
+        <div class="sponsor">
+            <img src="images/flatlogic.jpeg" alt="FLATLOGIC LOGO" class="sponsor-logo">
+            <p>We are proud to announce Flatlogic as an official sponsor of our hackathon! Flatlogic specializes in providing high-quality full-stack web application templates, dashboards, and developer tools that help streamline the development process and fuel innovation.
+            Their support is instrumental in helping us provide a fantastic experience for our participants, offering them the opportunity to build cutting-edge projects with world-class resources.</p>
+            <p>We can't wait to see how Flatlogic’s tools and expertise will empower our developers to create something extraordinary during the event.</p>
+            <p>Check them out on: <a href="https://flatlogic.com/" target="_blank">https://flatlogic.com/</a></p>
+            <p>Check out their socials:</p>
+            <ul>
+                <li><a href="https://x.com/flatlogic" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                <li><a href="https://www.instagram.com/flatlogic_team/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+            </ul>
+        </div>
     </section>
 
     <!-- About the Core Section -->
     <section id="about" class="about-section" data-aos="fade-up">
         <h2><i class="fas fa-users"></i> About the Core Team</h2>
-        <p>We are a group of passionate tech enthusiasts on a mission to use technology to make a difference in the world of health and well-being.</p>
+        <p>We are a group of passionate 12th graders, aspiring engineers with a deep interest in tech, and a shared mission to use technology to make a meaningful difference in the world of health and well-being. We believe in the power of problem-solving to tackle challenges and create impactful solutions. Through this hackathon, we aim to bring together like-minded individuals to innovate, collaborate, and use tech as a force for good.</p>
     </section>
 
     <!-- Contact Section -->
@@ -75,11 +135,7 @@
         <p>For any inquiries, email us at <a href="mailto:error404hackfestmanagement@gmail.com"><i class="fas fa-envelope-open"></i> error404hackfestmanagement@gmail.com</a></p>
     </section>
 
-    <footer>
-        <p>Follow us: 
-            <a href="https://www.instagram.com/error404_hackfest/?igsh=ZzRtNjhmcnB4MGU5&utm_source=qr"><i class="fab fa-instagram"></i></a>
-        </p>
-    </footer>
+    
 
     <!-- Floating Social Media Icons -->
     <div class="social-icons">
@@ -89,8 +145,13 @@
     <!-- Script Files -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/progressbar.js/1.0.1/progressbar.min.js"></script>
     <script src="js/countdown.js"></script>
     <script src="js/scripts.js"></script>
+
+
+    <!-- Devfolio Apply Button Integration -->
+    <script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
     <script>
         AOS.init();
     </script>
