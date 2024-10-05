@@ -34,12 +34,12 @@
     <section id="home" class="hero parallax">
         <div class="hero-content" data-aos="fade-in">
             <h1>Error 404 Hackathon</h1>
-            <h3>Sign up and be part of the innovation!</h3>
-            <h4>Registrations Open Soon!</h4>
+            <h3>Sign up now and be part of the innovation!</h3>
             <div class="countdown-container">
                 <i class="far fa-clock countdown-icon"></i>
                 <div id="countdown-timer" class="countdown"></div>
             </div>
+            <button class="apply-button" onclick="window.location.href='https://devfolio.co/'">Apply with Devfolio</button>
         </div>
     </section>
 
@@ -58,16 +58,8 @@
 
     <!-- Devfolio Section -->
     <section id="devfolio" class="devfolio-section" data-aos="fade-up">
-        <h2><i class="fas fa-code-branch"></i> Apply with Devfolio</h2>
-        <div 
-            class="devfolio-button-container"
-            data-hackathon-slug="YOUR-HACKATHON-SLUG"
-            data-button-theme="light"
-            style="height: 44px; width: 312px"
-        ></div>
-        <div class="devfolio-logo">
-            <img src="images/devfolio-logo.png" alt="Devfolio Official Logo" style="max-width: 200px;">
-        </div>
+        <h2><i class="fas fa-code-branch"></i> Devfolio</h2>
+        <button class="apply-button" onclick="window.location.href='https://devfolio.co/'">Apply with Devfolio</button>
     </section>
 
     <!-- About the Core Section -->
@@ -97,11 +89,8 @@
     <!-- Script Files -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="js/countdown.js"></script>
     <script src="js/scripts.js"></script>
-
-    <!-- Devfolio SDK Script -->
-    <script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
-
     <script>
         AOS.init();
     </script>
