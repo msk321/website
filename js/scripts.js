@@ -29,4 +29,3 @@ window.onscroll = function() {
     const scrolled = (scrollPosition / scrollHeight) * 100;
     document.getElementById('progress-bar').style.width = scrolled + '%';
 };
-
