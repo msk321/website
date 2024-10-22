@@ -15,6 +15,6 @@ const x = setInterval(function () {
 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("countdown-timer").innerHTML = "The Hackathon has started!";
+    document.getElementById("countdown-timer").innerHTML = "The Error 404 Hackfest has officially ended. Thank you to all participants for your incredible projects. See you next year!";
   }
 }, 1000);
